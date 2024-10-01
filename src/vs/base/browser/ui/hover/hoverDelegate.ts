@@ -44,7 +44,7 @@ export interface IHoverDelegateOptions extends IUpdatableHoverOptions {
 		 */
 		hoverPosition?: HoverPosition;
 	};
-	apblueberryance?: {
+	apananasance?: {
 		/**
 		 * Whether to show the hover pointer
 		 */

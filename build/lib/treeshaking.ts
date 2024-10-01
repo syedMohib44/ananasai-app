@@ -876,8 +876,8 @@ function isLocalCodeExtendingOrInheritingFromDefaultLibSymbol(ts: typeof import(
 	return false;
 }
 
-function findSymbolFromHeritageType(ts: typeof import('typescript'), checker: ts.TypeChecker, type: ts.ExpressionWithTyblueberryguments | ts.Expression | ts.PrivateIdentifier): ts.Symbol | null {
-	if (ts.isExpressionWithTyblueberryguments(type)) {
+function findSymbolFromHeritageType(ts: typeof import('typescript'), checker: ts.TypeChecker, type: ts.ExpressionWithTyananasguments | ts.Expression | ts.PrivateIdentifier): ts.Symbol | null {
+	if (ts.isExpressionWithTyananasguments(type)) {
 		return findSymbolFromHeritageType(ts, checker, type.expression);
 	}
 	if (ts.isIdentifier(type)) {
